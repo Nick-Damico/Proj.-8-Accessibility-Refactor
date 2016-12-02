@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="#">Tour</a></li>
@@ -19,12 +19,12 @@
       </ul>
     </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="main-heading">Accessible Frog</h1>
-      <i class="subheading">we make awesome music</i>
+      <strong class="subheading">we make awesome music</strong>
     </header>
 
-    <main >
+    <main>
       <div class="card">
         <div class="flex">
         <!-- The following images are decorative for this project. -->
@@ -33,40 +33,40 @@
           <h2 class="heading">Tour Dates</h2>
           <img class="pick" src="img/guitar_pick.png" alt="">
             
-            <table class="tour-dates">
+            <table id="tourDates" class="tour-dates" role="complementary">
 							<caption id="table-caption">Tour dates and location of events</caption>
                 <thead>
 									<tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">Venue</th>
-                    <th scope="col">Location</th>
+                    <th id="eventDate" scope="col">Date</th>
+                    <th id="eventVenue" scope="col">Venue</th>
+                    <th id="eventLocation" scope="col">Location</th>
 									</tr>
                 </thead> 
                     
                 <tbody>
                     
                     <tr>
-                        <th scope="row">Mar 10 - 12</th>
-                        <td>The Warfield</td>
-                        <td>San Fransico, CA</td>
+                        <th id="tourEventOne" headers="eventDate" scope="row">Mar 10 - 12</th>
+                        <td headers="tourEventOne eventVenue">The Warfield</td>
+                        <td headers="tourEventOne eventLocation">San Fransico, CA</td>
                     </tr>
                     
                     <tr>
-                        <th scope="row">Mar 20 - 32</th>
-                        <td>Pepsi Center</td>
-                        <td>Denver, CO</td>
+                        <th id="tourEventTwo" headers="eventDate" scope="row">Mar 20 - 32</th>
+                        <td headers="tourEventTwo eventVenue">Pepsi Center</td>
+                        <td headers="tourEventTwo eventLocation">Denver, CO</td>
                     </tr>
                     
                     <tr>
-                        <th scope="row">Apr 2 - 4</th>
-                        <td>Beacon Theatre</td>
-                        <td>New York City, NY</td>
+                        <th id="tourEventThree" headers="eventDate" scope="row">Apr 2 - 4</th>
+                        <td headers="tourEventThree eventVenue">Beacon Theatre</td>
+                        <td headers="tourEventThree eventLocation">New York City, NY</td>
                     </tr>
                     
                     <tr>
-                        <th scope="row">Apr 10</th>
-                        <td>Paramount Theatre</td>
-                        <td>Seattle, WA</td>
+                        <th id="tourEventFour" headers="eventDate" scope="row">Apr 10</th>
+                        <td headers="tourEventFour eventVenue">Paramount Theatre</td>
+                        <td headers="tourEventFour eventLocation">Seattle, WA</td>
                     </tr>
                     
                 </tbody>
@@ -77,7 +77,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter">twitter page<img src="img/twitter-32.png" alt="Accessible frogs twitter page"></a></li>
         <li><a href="#" class="social youtube">Youtube Page<img src="img/youtube-32.png" alt="Accessible frogs youtube page"></a></li>

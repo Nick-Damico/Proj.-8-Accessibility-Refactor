@@ -5,12 +5,12 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
       <title>Accessible Frog</title>
   </head>
 
   <body>
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="#">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -18,9 +18,9 @@
       </ul>
     </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="main-heading">Accessible Frog</h1>
-      <i class="subheading">we make awesome music</i>
+      <strong class="subheading">we make awesome music</strong>
     </header>
 
     <main>
@@ -31,7 +31,7 @@
             <h2 class="heading">New album out now</h2>
             <p>Soul of the Frog</p>
             <p>Digital/CD/ 2 x LP</p>
-            <a href="#" class="buy">Purchase Album</a>
+            <a href="#" class="buy" role="button">Purchase Album <span class="sr-only">go to store checkout page</span></a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter">Band Twitter.com</a></li>
         <li><a href="#" class="social youtube">Band Youtube.com</a></li>

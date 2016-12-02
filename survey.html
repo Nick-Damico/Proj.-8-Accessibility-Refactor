@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,7 +11,7 @@
   </head>
 
   <body>
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -20,9 +19,9 @@
       </ul>
     </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="main-heading">Accessible Frog</h1>
-      <i class="subheading">we make awesome music</i>
+      <strong class="subheading">we make awesome music</strong>
     </header>
 
     <main>
@@ -34,7 +33,7 @@
             <form class="survey">
 							<fieldset>
 								<legend>Favorite Band Member</legend>
-									<p><label for="john">Who is your favorite band member:</label></p>
+									<p><label>Who is your favorite band member:</label></p>
 									<input id="john" type="radio" name="res" value="John"> <label for="john">John</label>
 									<input id="Hazzard" type="radio" name="res" value="Hazzard"><label for="Hazzard">Hazzard</label>
 									<input id="Bob" type="radio" name="res" value="Bob"><label for="Bob">Bob</label>
@@ -82,7 +81,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter">twitter page<img src="img/twitter-32.png" alt="Accessible frogs twitter page"></a></li>
         <li><a href="#" class="social youtube">Youtube Page<img src="img/youtube-32.png" alt="Accessible frogs youtube page"></a></li>
