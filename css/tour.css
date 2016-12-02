@@ -5,10 +5,10 @@ div.flex{
 }
 
 .pick{
- 	margin-bottom: -10px;
   width: 34px;
   height: 0%;
   padding: 10px;
+	display: none;
 }
 
 /* Table styles */
@@ -42,15 +42,18 @@ tr:nth-child(even) {
 @media screen and (min-width: 840px) {
 		div.flex {
 				text-align: left;
+				align-content: center;
 		}
 		
 		.heading {
-				font-size: 2em;
+				font-size: 1.8em;
 				margin-top: 8px;
 		}
 	
 		.pick {
+				display: inline-block;
 				width: 40px;
+			margin-bottom: -10px;
 		}
 		
 		table.tour-dates {

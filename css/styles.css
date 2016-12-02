@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
+	line-height: 1.5;
   color: #1b2731;
   background: #4ca666;
 }
@@ -71,6 +72,16 @@ a:hover {
 .nav a:focus,
 .nav a:hover {
   color: white
+}
+
+:focus {
+	background: #40b2e2;
+}
+
+a:focus {
+	padding: 2px;
+	border-radius: .5em;
+	outline: none;
 }
 
 header {
@@ -275,6 +286,17 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 /* Styles for larger screens */
