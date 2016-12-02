@@ -1,0 +1,66 @@
+/* Tour page styles */
+
+div.flex{
+		text-align: center;
+}
+
+.pick{
+ 	margin-bottom: -10px;
+  width: 34px;
+  height: 0%;
+  padding: 10px;
+}
+
+/* Table styles */
+
+table.tour-dates {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+thead th {
+    background: #40b2e2;
+    text-transform: uppercase;
+}
+
+th,
+td {
+    padding: 4px;
+		font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+    background: #e1e1e1;
+    color: #000;
+}
+
+#table-caption {
+	text-indent: -9999px;
+}
+
+
+@media screen and (min-width: 840px) {
+		div.flex {
+				text-align: left;
+		}
+		
+		.heading {
+				font-size: 2em;
+				margin-top: 8px;
+		}
+	
+		.pick {
+				width: 40px;
+		}
+		
+		table.tour-dates {
+				width: 60%;
+				margin-left: auto;
+		}
+		
+		th,
+		td {
+				padding: 8px;
+		}
+		
+}
