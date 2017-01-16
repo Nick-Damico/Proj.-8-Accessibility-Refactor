@@ -320,13 +320,13 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-	
+
 	a {
 		font-size: 1.25em;
 	}
-		
+
 	/* header banner */
-		
+
 	header .main-heading {
   /* 63px / 14px */
   font-size: 4.5em;
@@ -357,7 +357,6 @@ a.social:hover {
   }
 
   .photo{
-		height: auto;
     width: 30%;
     margin: 20px 30px;
   }
